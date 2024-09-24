@@ -25,7 +25,7 @@ function PhotoHome() {
     <div className="flex-none w-1/4 relative xl:block sm:hidden">
       <img className="animate-float" src="src/assets/images/gustavo-home.png" />
       <div className="flex flex-col items-center m-4">
-        <h2 className="font-bold pr-3 pl-3 border-b-[4px]  border-b-[#30473F] mt-5 text-lg text-3xl">
+        <h2 className="font-bold pr-3 pl-3 mt-5 text-lg text-3xl border-b-[4px] border-b-[#30473F]">
           ENTRE EM CONTATO
         </h2>
         <div className="flex gap-6 mt-3">

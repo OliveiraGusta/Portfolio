@@ -2,20 +2,20 @@ import React from 'react'
 
 const contactsListData = [
   {
-    classNameImage:"hover:scale-125 transition-transform duration-500 w-9",  urlLink:"https://github.com/OliveiraGusta",
-    urlImage:"src/assets/logos/github-logo.svg",
+    urlLink:"https://github.com/OliveiraGusta",
+    urlImage:"github-logo.svg",
     alt:"Logo Github"
   },
 
   {
-    classNameImage:"hover:scale-125 transition-transform duration-500 w-9",  urlLink:"mailto:gustavo.oliver456@gmail.com",
-    urlImage:"src/assets/logos/email-logo.png",
+    urlLink:"mailto:gustavo.oliver456@gmail.com",
+    urlImage:"email-logo.png",
     alt:"Logo Email"
   },
 
   {
-    classNameImage:"hover:scale-125 transition-transform duration-500 w-9",  urlLink:"https://www.linkedin.com/in/oliveiragusta/",
-    urlImage:"src/assets/logos/Linkedin-logo.svg",
+    urlLink:"https://www.linkedin.com/in/oliveiragusta/",
+    urlImage:"Linkedin-logo.svg",
     alt:"Logo Linkedin"
   }
 ]
@@ -32,7 +32,7 @@ function PhotoHome() {
           {
             contactsListData.map((contact) => (
               <a target='_blank' href={contact.urlLink} key={contact.alt}>
-                <img className={contact.classNameImage} src={contact.urlImage} alt={contact.alt} />
+                <img className="hover:scale-125 transition-transform duration-500 w-9" src={`src/assets/logos/${contact.urlImage}`} alt={contact.alt} />
               </a>
             ))
           }

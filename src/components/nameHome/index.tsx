@@ -2,22 +2,21 @@ import React from 'react'
 
 const languagesListData = [
   {
-    classNameIcon: "w-12 hover:scale-125 transition-transform duration-500", urlLink: "",
-    urlImage: "src/assets/logos/spring-logo.svg",
+    size: "w-12", urlLink: "",
+    urlImage: "spring-logo.svg",
     alt: "Logo Spring"
 
   },
   {
-    classNameIcon: " w-16 hover:scale-125 transition-transform duration-500", urlLink: "",
-    urlImage: "src/assets/logos/react-logo.svg",
+    size: " w-16", urlLink: "",
+    urlImage: "react-logo.svg",
     alt: "Logo React"
 
   },
   {
-    classNameIcon: " w-12 hover:scale-125 transition-transform duration-500", urlLink: "",
-    urlImage: "src/assets/logos/python-logo.svg",
+    size: " w-12 ", urlLink: "",
+    urlImage: "python-logo.svg",
     alt: "Logo python"
-
 
   }
 ]
@@ -31,8 +30,8 @@ function nameHome() {
         </div>           
         <div className="flex gap-6 items-center">
           {languagesListData.map((language) => (
-            <a className={language.classNameIcon} href={language.urlLink}>
-              <img src={language.urlImage} alt={language.alt} />
+            <a className={`hover:scale-125 transition-transform duration-500 ${language.size}`} href={language.urlLink}>
+              <img src={`src/assets/logos/${language.urlImage}`} alt={language.alt} />
             </a>
           ))}
         </div>

@@ -4,10 +4,10 @@ import VideoHome from "../../organisms/videoHome";
 
 function Home() {
   return (
-    <> 
-    <VideoHome/>
+    <>
+      <VideoHome />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

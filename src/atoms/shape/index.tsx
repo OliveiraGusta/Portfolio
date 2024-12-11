@@ -12,9 +12,10 @@ interface ShapeProps {
   left?: string;
   right?: string;
   rotate?: string;
+  index?: string;
 }
 
-const Shape: React.FC<ShapeProps> = ({ shape, size, top, bottom, left, right, rotate = '0deg' }) => {
+const Shape: React.FC<ShapeProps> = ({ shape, size, top, bottom, left, right, rotate = '0deg', index }) => {
   let src = ''; 
 
   switch (shape) {
@@ -35,7 +36,7 @@ const Shape: React.FC<ShapeProps> = ({ shape, size, top, bottom, left, right, ro
     <img
       src={src}
       alt={shape} 
-      className="absolute"
+      className="absolute z-[30]"
       style={{
         width: size,
         height: size,
@@ -44,6 +45,7 @@ const Shape: React.FC<ShapeProps> = ({ shape, size, top, bottom, left, right, ro
         left: left,
         right: right,
         transform: `rotate(${rotate}deg)`,
+        zIndex: index,
       }}
     />
   );

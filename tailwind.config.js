@@ -15,6 +15,9 @@ export default {
       animation: {
         float: 'float 3s ease-in-out infinite',
       },
+      backgroundImage: {
+        'projectsAboutMe-background': "url('/src/assets/images/background.png')",
+      },
     },
   },
   plugins: [],

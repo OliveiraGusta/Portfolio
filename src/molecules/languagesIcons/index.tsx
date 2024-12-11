@@ -17,6 +17,11 @@ const languagesIcon = [
     {
         urlImage: "src/assets/logos/circle-react-logo.svg",
         alt: "Logo React",
+    },
+  
+    {
+        urlImage: "src/assets/logos/circle-figma-logo.svg",
+        alt: "Logo Figma",
     }
   
   ];
@@ -26,7 +31,7 @@ const languagesIcon = [
 function SubjectTextLogos() {
   return (
     <div className='flex items-center flex-col gap-10'>
-        <p className='text-2xl text-center font-bold'>EXPLORANDO O PODER DA PROGRAMAÇÃO<br/>PARA CRIAR SOLIÇÕES EFICIENTES</p> 
+        <p className='text-3xl text-center font-bold'>EXPLORANDO O PODER DA PROGRAMAÇÃO<br/>PARA CRIAR SOLUÇÕES EFICIENTES</p> 
         <div className='flex gap-4' >
             {languagesIcon.map((language) => (
                 <img

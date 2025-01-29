@@ -4,6 +4,7 @@ import VideoHome from "../../organisms/videoHome";
 import Subject from "../../organisms/subjectLanguagesIcons";
 import ProjectsAboutMe from "../../organisms/projectsAboutMe";
 import Depoiments from "../../organisms/depoiments";
+import Footer from "../../organisms/footer";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Subject />
       <ProjectsAboutMe />
       <Depoiments />
+      <Footer />
     </>
   );
 }

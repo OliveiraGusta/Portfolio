@@ -11,7 +11,7 @@ function AboutMe() {
       <div className='flex gap-6 pb-6'>
         <AboutMePhoto />
         <AboutMeText />
-      </div>
+      </div>      
       <div className='flex gap-6 justify-center'>
         <AboutMeEducation/>
         <AboutMeExperience/>

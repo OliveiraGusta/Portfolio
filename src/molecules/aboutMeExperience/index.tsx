@@ -7,7 +7,7 @@ const experienceData = [
     },
     {
       role: "Professor de Desenvolvimento Web - Projeto SSF",
-      period: "Jan de 2025 - Atual"
+      period: "Fev de 2025 - Atual"
     },
     {
       role: "Desenvolvedor Fullstack - Ortopelve (Freelancer)",

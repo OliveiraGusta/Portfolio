@@ -145,7 +145,7 @@ function ProjectList() {
                   text="Ver Projeto"
                   padding="px-5 py-2"
                   link={project.linkProject}
-                  iconUrl="src/assets/logos/github-logo.svg"
+                  iconUrl="src/assets/icons/link-icon.png"
                   altIcon="Ícone GitHub"
                 />
               )}
@@ -154,7 +154,8 @@ function ProjectList() {
                   text="Ver Código"
                   padding="px-5 py-2"
                   link={project.linkCodeProject}
-                  iconUrl="src/assets/icons/link-icon.png"
+                
+                  iconUrl="src/assets/logos/github-logo.svg"
                   altIcon="Ícone GitHub"
                 />
               )}

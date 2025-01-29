@@ -9,10 +9,9 @@ function ProjectsAboutMe() {
       <Projects/>
       <AboutMe/>
       <Shape shape="circle" size="45vh" top="15%" right="-10%" rotate='1' />
-      <Shape shape="square" size="32vh" top="40%" left="-3%" rotate='100'/>
-      <Shape shape="triangle" size="45vh" bottom="22%" right="-2%" rotate='140' index='1'/>
-      <Shape shape="circle" size="45vh" bottom="1%" left="-10%" rotate='150' />
-
+      <Shape shape="square" size="32vh" top="30%" left="-3%" rotate='100'/>
+      <Shape shape="triangle" size="45vh" bottom="20%" right="-2%" rotate='140' index='1'/>
+      <Shape shape="circle" size="47vh" bottom="-2%" left="-10%" rotate='150' />
     </div>
   )
 }

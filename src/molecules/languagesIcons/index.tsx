@@ -2,8 +2,8 @@ import React from 'react'
 
 const languagesIcon = [
     {
-        urlImage: "src/assets/logos/circle-java-logo.svg",
-        alt: "Logo Java",
+        urlImage: "src/assets/logos/circle-laravel-logo.svg",
+        alt: "Logo Laravel",
     },
     {
         urlImage: "src/assets/logos/circle-spring-logo.svg",
@@ -28,10 +28,9 @@ const languagesIcon = [
   
 
 
-function SubjectTextLogos() {
+function LanguagesIcons() {
   return (
     <div className='flex items-center flex-col gap-10'>
-        <p className='text-3xl text-center font-bold'>EXPLORANDO O PODER DA PROGRAMAÇÃO<br/>PARA CRIAR SOLUÇÕES EFICIENTES</p> 
         <div className='flex gap-4' >
             {languagesIcon.map((language) => (
                 <img
@@ -45,4 +44,4 @@ function SubjectTextLogos() {
   )
 }
 
-export default SubjectTextLogos
+export default LanguagesIcons

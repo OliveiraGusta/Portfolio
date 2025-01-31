@@ -9,7 +9,7 @@ const contactsListData = [
 
   {
     urlLink: "mailto:gustavo.oliver456@gmail.com",
-    urlImage: "src/assets/icons/email-icon.png",
+    urlImage: "src/assets/icons/mailicon.svg",
     alt: "Logo Email",
   },
 

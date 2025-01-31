@@ -1,7 +1,7 @@
 import React from "react";
 
 import VideoHome from "../../organisms/videoHome";
-import Subject from "../../organisms/subjectLanguagesIcons";
+import Services from "../../organisms/services";
 import ProjectsAboutMe from "../../organisms/projectsAboutMe";
 import Depoiments from "../../organisms/depoiments";
 import Footer from "../../organisms/footer";
@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <VideoHome />
-      <Subject />
+      <Services />
       <ProjectsAboutMe />
       <Depoiments />
       <Footer />

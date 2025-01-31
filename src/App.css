@@ -4,5 +4,9 @@
     background: #191824;
     color: #FFFFF0;
     overflow-x: hidden;
-  }
+    scroll-behavior: smooth;
+    scroll-padding-top: 30px;
+
+    
+}
   

@@ -6,7 +6,7 @@ import Shape from '../../atoms/shape'
 
 function Depoiments() {
   return (
-    <div className="relative pr-10 pl-10">
+    <div id="depoiments" className="relative pr-10 pl-10">
       <video
         autoPlay
         loop

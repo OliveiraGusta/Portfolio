@@ -6,7 +6,7 @@ import NameHome from "../../molecules/nameHome";
 
 function VideoHome() {
   return (
-    <div className="relative pr-10 pl-10">
+    <div id="home" className="relative pr-10 pl-10">
       <video
         autoPlay
         loop

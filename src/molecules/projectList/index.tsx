@@ -99,7 +99,7 @@ const languagesListData = [
 
 function ProjectList() {
   return (
-    <div className="pb-20  z-50 flex flex-col">
+    <div className="pb-20 z-50 flex flex-col">
 
       <div className="flex flex-wrap flex-row gap-10 xl:justify-center xl:self-center lg:justify-center sm:justify-center">
         {projectsData.map((project, index) => (

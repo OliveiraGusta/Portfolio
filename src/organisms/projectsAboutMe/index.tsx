@@ -5,7 +5,7 @@ import Shape from '../../atoms/shape'
 
 function ProjectsAboutMe() {
   return (
-    <div className="relative bg-projectsAboutMe-background bg-cover bg-start px-44 min-h-screen z-20">
+    <div id="about-me" className="relative bg-projectsAboutMe-background bg-cover bg-start px-44 min-h-screen z-20">
       <Projects/>
       <AboutMe/>
       <Shape shape="circle" size="45vh" top="15%" right="-10%" rotate='1' />

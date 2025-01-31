@@ -6,7 +6,7 @@ import ServicesList from '../../molecules/serviceList';
 
 function Services() {
   return (
-    <div className="relative h-[90vh] flex flex-col items-center justify-center px-44 mt-28 gap-5">
+    <div id='services' className="relative h-[90vh] flex flex-col items-center justify-center px-44 mt-28 gap-5">
       <div 
         className="absolute inset-0 bg-center bg-no-repeat opacity-10 z-[-20]"
         style={{ 

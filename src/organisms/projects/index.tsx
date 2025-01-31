@@ -5,7 +5,7 @@ import LanguagesIcons from '../../molecules/languagesIcons';
 
 function Projects() {
   return (
-    <div className="pt-6">
+    <div id="projects" className="pt-6">
       <div style={{
         background: "radial-gradient(circle, rgba(6, 5, 21, 0.2) 60%, rgba(255, 255, 255, 1) 700%)"
       }} className="flex flex-col items-center gap-12 pt-20 rounded-3xl shadow-lg">

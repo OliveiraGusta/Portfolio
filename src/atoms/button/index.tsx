@@ -1,11 +1,11 @@
 import React from "react";
 
 interface ButtonProps {
-  text: string;              // Texto do botão
-  padding?: string;          // Padding opcional
-  link: string;              // Link do botão
-  iconUrl?: string;          // URL do ícone opcional
-  altIcon?: string;          // Texto alternativo para o ícone
+  text: string;             
+  padding?: string;        
+  link: string;        
+  iconUrl?: string;         
+  altIcon?: string;         
 }
 
 const Button: React.FC<ButtonProps> = ({

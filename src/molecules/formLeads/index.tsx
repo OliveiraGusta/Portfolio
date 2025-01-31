@@ -61,7 +61,7 @@ function FormLeads() {
     }
 
     return (
-        <div className="max-w-md mx-auto p-6 rounded-2xl">
+        <div id="orcamento" className="max-w-md mx-auto p-6 rounded-2xl">
             <h2 className="font-bold text-center text-xl mb-10">SOLICITAR ORÇAMENTO</h2>
 
             {sentEmail ? (

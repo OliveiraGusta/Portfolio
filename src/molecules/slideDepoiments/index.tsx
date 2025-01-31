@@ -54,7 +54,7 @@ function SlideDepoiments() {
     <>
       <div className="flex overflow-hidden space-x-5 group">
 
-        <div className="flex space-x-10 animate-loop-scroll group-hover:paused">
+        <div className="flex space-x-10 animate-loopScroll group-hover:paused">
           {depoimentsData.map((depoiment, index) => (
             <div key={index} style={{
               background: "radial-gradient(ellipse at right top , rgba(150, 150, 150, 0.2) 55%, rgba(255, 255, 255, 1) 500%)"
@@ -72,7 +72,7 @@ function SlideDepoiments() {
           ))}
 
         </div>
-        <div className="flex space-x-10 animate-loop-scroll group-hover:paused" aria-hidden="true">
+        <div className="flex space-x-10 animate-loopScroll group-hover:paused" aria-hidden="true">
           {depoimentsData.map((depoiment, index) => (
             <div key={index} style={{
               background: "radial-gradient(ellipse at right top , rgba(150, 150, 150, 0.2) 55%, rgba(255, 255, 255, 1) 500%)"
@@ -90,7 +90,7 @@ function SlideDepoiments() {
           ))}
 
         </div>
-        <div className="flex space-x-10 animate-loop-scroll group-hover:paused" aria-hidden="true">
+        <div className="flex space-x-10 animate-loopScroll group-hover:paused" aria-hidden="true">
           {depoimentsData.map((depoiment, index) => (
             <div key={index} style={{
               background: "radial-gradient(ellipse at right top , rgba(150, 150, 150, 0.2) 55%, rgba(255, 255, 255, 1) 500%)"

@@ -9,7 +9,10 @@ function AboutMePhoto() {
     }} className="flex flex-col items-center rounded-3xl shadow-lg w-1/3">
       <div className="flex flex-col items-center gap-5 py-10">
         <h2 className="font-bold text-2xl">QUEM SOU EU</h2>
-        <img className="animate-float w-1/2" src="src/assets/images/me-home.png" />
+
+        <div className="w-1/2 relative p-[7px] rounded-full before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r before:from-purple-700 before:via-pink-500 before:to-blue-700 before:bg-[length:300%_300%] before:animate-gradientMove animate-float">
+          <img className="relative z-10 rounded-full" src="src/assets/images/me.png" />
+        </div>
         <ContactList />
         <Button
           text="Currículo"
@@ -23,3 +26,4 @@ function AboutMePhoto() {
 }
 
 export default AboutMePhoto
+

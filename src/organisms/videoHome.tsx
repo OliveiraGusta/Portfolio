@@ -1,8 +1,8 @@
 import React from "react";
 
-import Navbar from "../../molecules/navBar";
-import PhotoHome from "../../molecules/photoHome";
-import NameHome from "../../molecules/nameHome";
+import Navbar from "../molecules/navBar";
+import PhotoHome from "../molecules/photoHome";
+import NameHome from "../molecules/nameHome";
 
 function VideoHome() {
   return (

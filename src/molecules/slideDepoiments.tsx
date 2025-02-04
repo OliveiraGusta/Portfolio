@@ -1,6 +1,6 @@
 import React from 'react'
 
-import imgPerson from "../../assets/images/person.jpg";
+import imgPerson from "../assets/images/person.jpg";
 
 
 const depoimentsData = [

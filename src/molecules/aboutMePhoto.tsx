@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactList from '../../atoms/contactList'
-import Button from '../../atoms/button'
+import ContactList from '../atoms/contactList'
+import Button from '../atoms/button'
 
 function AboutMePhoto() {
   return (

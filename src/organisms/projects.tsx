@@ -1,6 +1,7 @@
 import React from 'react';
-import ProjectList from '../../molecules/projectList';
-import LanguagesIcons from '../../molecules/languagesIcons';
+
+import LanguagesIcons from '../molecules/languagesIcons';
+import ProjectList from '../molecules/projectList';
 
 
 function Projects() {

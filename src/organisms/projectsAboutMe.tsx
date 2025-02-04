@@ -1,7 +1,7 @@
 import React from 'react'
-import Projects from '../projects'
-import AboutMe from '../aboutMe'
-import Shape from '../../atoms/shape'
+import Projects from './projects'
+import AboutMe from './aboutMe'
+import Shape from '../atoms/shape'
 
 function ProjectsAboutMe() {
   return (

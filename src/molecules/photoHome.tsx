@@ -1,5 +1,5 @@
 import React from "react";
-import ContactList from "../../atoms/contactList";
+import ContactList from "../atoms/contactList";
 
 function PhotoHome() {
   return (

@@ -3,7 +3,7 @@ import React from "react";
 const contactsListData = [
   {
     urlLink: "https://github.com/OliveiraGusta",
-    urlImage: "src/assets/logos/github-logo.svg",
+    urlImage: "src/assets/icons/GithubIcon.svg",
     alt: "Logo Github",
   },
 
@@ -14,13 +14,13 @@ const contactsListData = [
   },
 
   {
-    urlLink: "https://www.linkedin.com/in/oliveiragusta/",
-    urlImage: "src/assets/logos/linkedin-logo.svg",
+    urlLink: "https://www.instagram.com/devliveira",
+    urlImage: "src/assets/icons/InstagramIcon.svg",
     alt: "Logo Linkedin",
   },
   {
     urlLink: "https://www.linkedin.com/in/oliveiragusta/",
-    urlImage: "src/assets/logos/linkedin-logo.svg",
+    urlImage: "src/assets/icons/LinkedinIcon.svg",
     alt: "Logo Linkedin",
   },
 ];
@@ -31,7 +31,7 @@ function ContactList() {
       {contactsListData.map((contact) => (
         <a target="_blank" href={contact.urlLink} key={contact.alt}>
           <img
-            className="hover:scale-125 transition-transform duration-500 w-9"
+            className="hover:scale-125 transition-transform duration-500 w-9 invert"
             src={contact.urlImage}
             alt={contact.alt}
           />

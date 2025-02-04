@@ -13,7 +13,7 @@ function PhotoHome() {
         <h2 className="font-bold pr-3 pb-2 pl-3 mt-5 text-lg text-3xl border-b-[1px] border-b-[#ffff]">
           ENTRE EM CONTATO
         </h2>
-        <ContactList />
+        <ContactList  />
       </div>
     </div>
   );

@@ -52,7 +52,7 @@ const depoimentsData = [
 function SlideDepoiments() {
   return (
     <>
-      <div className="flex overflow-hidden space-x-5 group">
+      <div className="flex overflow-hidden space-x-5 group gap-4">
 
         <div className="flex space-x-10 animate-loopScroll group-hover:paused">
           {depoimentsData.map((depoiment, index) => (

@@ -4,75 +4,75 @@ import Button from '../atoms/button';
 const projectsData = [
   {
     name: "Ortopelve",
-    description: "Sistema Completo de controle de Clínicas Ortopédicas",
-    theme: "Fullstack",
+    description: "Sistema Completo Gestão de Clínicas, gestão de serviços, horarios, consultas, financeiro etc..",
+    theme: "Freelance Fullstack",
     isProjectOnline: true,
     linkProject: "https://app.ortopelve.com.br",
     isCodePublic: false,
-    linkCodeProject: "",
+    linkCodeProject: "https://github.com/OliveiraGusta/ortopelve",
     urlImage: "ortopelve-screenshot.png",
     alt: "Screenshot do site da Ortopelve",
     languages: ['Spring', 'React']
   },
   {
-    name: "Ortopelve2",
-    description: "Sistema Completo de controle de Clínicas Ortopédicas",
-    theme: "Backend",
-    isProjectOnline: true,
-    linkProject: "https://app.ortopelve.com.br",
+    name: "Starwars",
+    description: "Sistema de avaliação com notas e comentarios, teste técnico Fullstack utilizando a API Swapi",
+    theme: "Teste Fullstack",
+    isProjectOnline: false,
+    linkProject: "",
     isCodePublic: true,
-    linkCodeProject: "https://app.ortopelve.com.br",
-    urlImage: "ortopelve-screenshot.png",
-    alt: "Screenshot do site da Ortopelve",
-    languages: ['Spring', 'Python']
+    linkCodeProject: "https://github.com/OliveiraGusta/L5-Networks-StarwarsAPI",
+    urlImage: "starwars-screenshot.png",
+    alt: "Screenshot do sistema",
+    languages: ['Laravel', 'Javascript']
   },
   {
-    name: "Ortopelve3",
-    description: "Sistema Completo de controle de Clínicas Ortopédicas",
-    theme: "Frontend",
-    isProjectOnline: true,
-    linkProject: "https://app.ortopelve.com.br",
-    isCodePublic: false,
-    linkCodeProject: "",
-    urlImage: "ortopelve-screenshot.png",
-    alt: "Screenshot do site da Ortopelve",
-    languages: ['React']
-  },
-  {
-    name: "Ortopelve",
-    description: "Sistema Completo de controle de Clínicas Ortopédicas",
-    theme: "Fullstack",
-    isProjectOnline: true,
-    linkProject: "https://app.ortopelve.com.br",
-    isCodePublic: false,
-    linkCodeProject: "",
-    urlImage: "ortopelve-screenshot.png",
-    alt: "Screenshot do site da Ortopelve",
-    languages: ['Spring', 'React']
-  },
-  {
-    name: "Ortopelve5",
-    description: "Sistema Completo de controle de Clínicas Ortopédicas",
+    name: "Blog",
+    description: "API para blog pessoal, com temas e postagens de diversos usuarios",
     theme: "Backend",
-    isProjectOnline: true,
-    linkProject: "https://app.ortopelve.com.br",
+    isProjectOnline: false,
+    linkProject: "",
     isCodePublic: true,
-    linkCodeProject: "https://app.ortopelve.com.br",
-    urlImage: "ortopelve-screenshot.png",
-    alt: "Screenshot do site da Ortopelve",
-    languages: ['Spring', 'Python']
+    linkCodeProject: "https://github.com/OliveiraGusta/BlogPessoal_backend",
+    urlImage: "blog-screenshot.png",
+    alt: "Screenshot de um termianal de computador e um bloco de notas aberto",
+    languages: ['Spring']
   },
   {
-    name: "Ortopelve6",
-    description: "Sistema Completo de controle de Clínicas teste tes testeTeste",
-    theme: "Frontend",
-    isProjectOnline: true,
-    linkProject: "https://app.ortopelve.com.br",
-    isCodePublic: false,
+    name: "BotAutoClick",
+    description: "Automação de um bot que clica em lugares escolhidos da tela em até infinitas vezes",
+    theme: "Automação Desktop",
+    isProjectOnline: false,
+    linkProject: "",
+    isCodePublic: true,
     linkCodeProject: "",
-    urlImage: "ortopelve-screenshot.png",
-    alt: "Screenshot do site da Ortopelve",
-    languages: ['React']
+    urlImage: "clicker-screenshot.png",
+    alt: "Screenshot de um terminal rodando um boy",
+    languages: ['Python']
+  },
+  {
+    name: "Ramais",
+    description: "Sistema de controle de ramais, teste técnico Fullstack utilizando um arquivo de ramais",
+    theme: "Teste Fullstack",
+    isProjectOnline: false,
+    linkProject: "",
+    isCodePublic: true,
+    linkCodeProject: "https://github.com/OliveiraGusta/L5Networking-Test-Ramal",
+    urlImage: "ramais-screenshot.png",
+    alt: "Screenshot de um sistemas site de ramais",
+    languages: ['Laravel', 'Javascript']
+  },
+  {
+    name: "Politicas de Privacidade",
+    description: "Automatizei a geração de Politicas de Privacidade da uma empresa",
+    theme: "Automação Desktop",
+    isProjectOnline: false,
+    linkProject: "",
+    isCodePublic: true,
+    linkCodeProject: "https://github.com/OliveiraGusta/Gerador-de-Politicas-de-Privacidade",
+    urlImage: "gerador-politica-screenshot.png",
+    alt: "",
+    languages: ['Python']
   }
 ];
 
@@ -106,10 +106,9 @@ function ProjectList() {
           <div key={index} className="max-w-md">
 
             <img
-              width="400"
               src={`src/assets/images/${project.urlImage}`}
               alt={project.alt}
-              className="rounded-lg"
+              className="rounded-lg w-[100%] h-[250px]"
             />
             <div className="mt-4 flex justify-between">
               <div>
@@ -145,20 +144,29 @@ function ProjectList() {
                   text="Ver Projeto"
                   padding="px-5 py-2"
                   link={project.linkProject}
-                  iconUrl="src/assets/icons/link-icon.png"
-                  altIcon="Ícone GitHub"
+                  iconUrl="src/assets/icons/GlobeIcon.svg"
+                  altIcon="Ícone de Globo"
                 />
               )}
-              {project.isCodePublic && (
+
+              {project.isCodePublic ? 
                 <Button
                   text="Ver Código"
                   padding="px-5 py-2"
                   link={project.linkCodeProject}
-                
-                  iconUrl="src/assets/logos/github-logo.svg"
+
+                  iconUrl="src/assets/icons/GithubIcon.svg"
                   altIcon="Ícone GitHub"
-                />
-              )}
+                /> :
+                <Button
+                text="Codigo Privado"
+                padding="px-5 py-2 "
+                block={true}
+                link={project.linkCodeProject}
+              
+                iconUrl="src/assets/icons/GithubIcon.svg"
+                altIcon="Ícone GitHub" /> 
+              }
             </div>
           </div>
         ))}

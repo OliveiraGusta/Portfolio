@@ -6,24 +6,12 @@ const projectsData = [
     name: "Ortopelve",
     description: "Sistema Completo Gestão de Clínicas, gestão de serviços, horarios, consultas, financeiro etc..",
     theme: "Freelance Fullstack",
-    isProjectOnline: true,
+    isProjectOnline: false,
     linkProject: "https://app.ortopelve.com.br",
     isCodePublic: false,
     linkCodeProject: "https://github.com/OliveiraGusta/ortopelve",
     urlImage: "ortopelve-screenshot.png",
     alt: "Screenshot do site da Ortopelve",
-    languages: ['Spring', 'React']
-  },
-  {
-    name: "Starwars",
-    description: "Sistema de avaliação com notas e comentarios, teste técnico Fullstack utilizando a API Swapi",
-    theme: "Teste Fullstack",
-    isProjectOnline: false,
-    linkProject: "",
-    isCodePublic: true,
-    linkCodeProject: "https://github.com/OliveiraGusta/L5-Networks-StarwarsAPI",
-    urlImage: "starwars-screenshot.png",
-    alt: "Screenshot do sistema",
     languages: ['Laravel', 'Javascript']
   },
   {
@@ -39,8 +27,21 @@ const projectsData = [
     languages: ['Spring']
   },
   {
-    name: "BotAutoClick",
-    description: "Automação de um bot que clica em lugares escolhidos da tela em até infinitas vezes",
+    name: "Starwars",
+    description: "Sistema de avaliação com notas e comentarios, teste técnico Fullstack utilizando a API Swapi",
+    theme: "Teste Fullstack",
+    isProjectOnline: false,
+    linkProject: "",
+    isCodePublic: true,
+    linkCodeProject: "https://github.com/OliveiraGusta/L5-Networks-StarwarsAPI",
+    urlImage: "starwars-screenshot.png",
+    alt: "Screenshot do sistema",
+    languages: ['Laravel', 'Javascript']
+  },
+ 
+  {
+    name: "AutoClick",
+    description: "Automatizei a geração um processo repetitivo para uma empresa",
     theme: "Automação Desktop",
     isProjectOnline: false,
     linkProject: "",
@@ -82,6 +83,18 @@ const languagesListData = [
     size: "w-10 h-10",
     urlImage: "spring-logo.svg",
     alt: "Logo Spring"
+  },
+  {
+    name: 'Laravel',
+    size: "w-10 h-10",
+    urlImage: "laravel-logo.svg",
+    alt: "Logo Laravel"
+  },
+  {
+    name: 'Javascript',
+    size: "w-10 h-10",
+    urlImage: "javascript-logo.svg",
+    alt: "Logo Javascript"
   },
   {
     name: 'React',
@@ -149,23 +162,21 @@ function ProjectList() {
                 />
               )}
 
-              {project.isCodePublic ? 
+              {project.isCodePublic ?
                 <Button
                   text="Ver Código"
                   padding="px-5 py-2"
                   link={project.linkCodeProject}
-
                   iconUrl="src/assets/icons/GithubIcon.svg"
                   altIcon="Ícone GitHub"
                 /> :
                 <Button
-                text="Codigo Privado"
-                padding="px-5 py-2 "
-                block={true}
-                link={project.linkCodeProject}
-              
-                iconUrl="src/assets/icons/GithubIcon.svg"
-                altIcon="Ícone GitHub" /> 
+                  text="Codigo Privado"
+                  padding="px-5 py-2 "
+                  type="block"
+                  link={project.linkCodeProject}
+                  iconUrl="src/assets/icons/LockIcon.svg"
+                  altIcon="Ícone GitHub" />
               }
             </div>
           </div>

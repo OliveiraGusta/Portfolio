@@ -31,7 +31,7 @@ const experienceData = [
     return (
         <div style={{
             background: "radial-gradient(ellipse at right bottom, rgba(6, 5, 21, 0.2) 50%, rgba(255, 255, 255, 1) 500%)"
-          }} className="flex flex-col rounded-3xl shadow-lg p-10 px-30 w-7/12 mt-[-5vh]">
+          }} className="flex flex-col rounded-3xl shadow-lg p-10 px-30 lg:w-7/12 mt-[-5vh]">
         <h2 className="text-2xl font-bold self-center pb-2 ">XP PROFISSIONAL</h2>
         <ul className="space-y-4">
           {experienceData.map((item, index) => (

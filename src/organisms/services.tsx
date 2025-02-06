@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 import LanguagesIcons from '../molecules/languagesIcons';
@@ -6,7 +7,7 @@ import ServicesList from '../molecules/serviceList';
 
 function Services() {
   return (
-    <div id='services' className="relative h-[90vh] flex flex-col items-center justify-center px-44 mt-28 gap-5">
+    <div id='services' className="relative flex flex-col items-center px-10 lg:px-44 mt-28 gap-5">
       <div 
         className="absolute inset-0 bg-center bg-no-repeat opacity-10 z-[-20]"
         style={{ 
@@ -21,10 +22,33 @@ function Services() {
         de discutir mais detalhadamente ou trabalhar comigo.
         </p>
       <ServicesList/>
-      <Shape shape="circle" size="40vh" top="-25%" left="-10%" rotate='200' />
-      <Shape shape="square" size="40vh" top="-8%" right="1%" rotate='130' />
-      <Shape shape="triangle" size="50vh" bottom="-5%" left="-10%" rotate='130' />
-      <Shape shape="triangle" size="50vh" bottom="-20%" right="-2%" rotate='12' />
+      <Shape 
+        shape="circle" size="50vh" rotate="200" 
+        top="-40%" left="-10%" 
+        mobileSize="40vh"
+        mobileTop="-17%" mobileLeft="-30%"
+      />
+
+      <Shape 
+        shape="square" size="40vh" rotate='130'
+        top="-25%" right="1%"
+        mobileSize="30vh"
+        mobileTop="15%"  mobileRight="-20%"
+      />
+
+      <Shape
+        shape="triangle" size="50vh" rotate='130'
+        bottom="-5%" left="-10%"
+        mobileSize="34vh"
+        mobileTop="43%" mobileLeft="-15%" 
+      />
+      
+      <Shape
+        shape="triangle" size="50vh" rotate='12'
+        bottom="-20%" right="-2%"
+        mobileSize="50vh" 
+        mobileBottom="10%" mobileRight="-30%"
+      />
       </div>
   );
 }

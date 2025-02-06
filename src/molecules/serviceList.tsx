@@ -42,7 +42,7 @@ const servicesData = [
 
 function ServicesList() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 z-50">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 z-50">
       {servicesData.map((service, index) => (
         <a href="#orcamento"><div key={index} style={{
           background: "radial-gradient(ellipse at right bottom, rgba(6, 5, 21, 0.01) 70%, rgba(255, 255, 255, 0.9) 400%)"

@@ -8,7 +8,12 @@ const languagesIcon = [
     {
         urlImage: "src/assets/logos/circle-spring-logo.svg",
         alt: "Logo Spring",
-        
+
+    },
+    {
+        urlImage: "src/assets/logos/circle-javascript-logo.svg",
+        alt: "Logo Javascript",
+
     },
     {
         urlImage: "src/assets/logos/circle-python-logo.svg",
@@ -18,30 +23,28 @@ const languagesIcon = [
         urlImage: "src/assets/logos/circle-react-logo.svg",
         alt: "Logo React",
     },
-  
+
     {
         urlImage: "src/assets/logos/circle-figma-logo.svg",
         alt: "Logo Figma",
     }
-  
-  ];
-  
+
+];
+
 
 
 function LanguagesIcons() {
-  return (
-    <div className='flex items-center flex-col gap-10'>
-        <div className='flex gap-4' >
+    return (
+        <div className='flex md:gap-5 gap-2' >
             {languagesIcon.map((language) => (
                 <img
-                    className="h-[9vh]"
+                    className="md:h-[9vh] h-[7vh] "
                     src={language.urlImage}
                     alt={language.alt}
                 />
             ))}
         </div>
-    </div>
-  )
+    )
 }
 
 export default LanguagesIcons

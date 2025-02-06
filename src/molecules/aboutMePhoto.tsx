@@ -6,7 +6,7 @@ function AboutMePhoto() {
   return (
     <div style={{
       background: "radial-gradient(ellipse at top left, rgba(6, 5, 21, 0.2) 60%, rgba(255, 255, 255, 1) 400%)"
-    }} className="flex flex-col items-center rounded-3xl shadow-lg w-1/3">
+    }} className="flex flex-col items-center rounded-3xl shadow-lg lg:w-1/3">
       <div className="flex flex-col items-center gap-5 py-10">
         <h2 className="font-bold text-2xl">QUEM SOU EU</h2>
 
@@ -16,9 +16,10 @@ function AboutMePhoto() {
         <ContactList />
         <Button
           text="Currículo"
+          type="download"
           padding="px-7 py-2"
-          link=""
-          iconUrl="src/assets/icons/link-icon.png"
+          link="src/assets/download/GustavoOliveira-DesenvolvedorFullStack.zip"
+          iconUrl="src/assets/icons/DownloadIcon.svg"
           altIcon="Icone GitHub" />
       </div>
     </div>

@@ -62,7 +62,7 @@ function FormLeads() {
 
     return (
         <div id="orcamento" className="max-w-md mx-auto p-6 rounded-2xl">
-            <h2 className="font-bold text-center text-xl mb-10">SOLICITAR ORÇAMENTO</h2>
+            <h2 className="font-bold text-center mb-10 text-2xl lg:text-xl ">SOLICITAR ORÇAMENTO</h2>
 
             {sentEmail ? (
                 <div className="flex flex-col items-center text-center py-6 gap-5">

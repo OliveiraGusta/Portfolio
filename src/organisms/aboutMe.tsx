@@ -6,13 +6,13 @@ import AboutMeExperience from '../molecules/aboutMeExperience';
 
 function AboutMe() {
   return (
-    <div className="pt-5 pb-40">
+    <div id="about-me" className="pt-5 pb-40">
 
-      <div className='flex gap-6 pb-6'>
+      <div className='flex flex-col lg:flex-row gap-6 pb-6'>
         <AboutMePhoto />
         <AboutMeText />
       </div>      
-      <div className='flex gap-6 justify-center'>
+      <div className='flex flex-col lg:flex-row gap-16 justify-center'>
         <AboutMeEducation/>
         <AboutMeExperience/>
       </div>

@@ -29,16 +29,38 @@ function Depoiments() {
           </p>
         </div>
         <SlideDepoiments />
-        <h1 className="font-bold text-3xl mt-16">TEM UM DEPOIMENTO OU IDEIA?</h1>
-        <div className="flex flex-row gap-16">
+        <h1 id="forms" className="font-bold text-3xl mt-16">TEM UM DEPOIMENTO OU IDEIA?</h1>
+        <div className="flex flex-col lg:flex-row lg:gap-16">
           <FormDepoiments />
           <FormLeads />
         </div>
       </div>
-      <Shape shape="triangle" size="40vh" top="10%" left="-15%" rotate='100'/>
-      <Shape shape="square" size="28vh" top="20%" right="-5%" rotate='20' />
-      <Shape shape="circle" size="45vh" bottom="3%" left="-10%" rotate='190' />
-      <Shape shape="triangle" size="40vh" bottom="0%" right="-2%" rotate='140' index='1'/>
+
+      <Shape
+      shape="triangle" size="40vh" rotate='100'
+      top="10%" left="-15%"
+      mobileSize="34vh"
+      mobileTop="-10%"  mobileLeft="-35%"/>
+
+      <Shape
+      shape="square" size="28vh" rotate='20' 
+      top="20%" right="-5%"
+      mobileSize="34vh"
+      mobileTop="20%"  mobileRight="-40%"/>
+
+      <Shape
+      shape="circle" size="45vh" rotate='190'
+      bottom="3%" left="-10%"
+      mobileSize="34vh"
+      mobileBottom="25%"  mobileLeft="-30%"/>
+
+
+      <Shape
+      shape="triangle" size="40vh" rotate='140'  index='1'
+      bottom="0%" right="-2%"
+      mobileSize="34vh"
+      mobileBottom="10%"  mobileRight="-20%"/>
+
 
     </div>
   )

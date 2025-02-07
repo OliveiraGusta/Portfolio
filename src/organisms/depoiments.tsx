@@ -49,7 +49,7 @@ function Depoiments() {
       mobileTop="20%"  mobileRight="-40%"/>
 
       <Shape
-      shape="circle" size="45vh" rotate='190'
+      shape="circle" size="45vh" rotate='190'  index='-2'
       bottom="3%" left="-10%"
       mobileSize="34vh"
       mobileBottom="25%"  mobileLeft="-30%"/>

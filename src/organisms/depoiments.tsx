@@ -28,7 +28,7 @@ function Depoiments() {
             suas ideias para futuros projetos
           </p>
         </div>
-        <SlideDepoiments />
+       
         <h1 id="forms" className="font-bold text-3xl mt-16">TEM UM DEPOIMENTO OU IDEIA?</h1>
         <div className="flex flex-col lg:flex-row lg:gap-16">
           <FormDepoiments />

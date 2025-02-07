@@ -5,7 +5,7 @@ import Shape from '../atoms/shape'
 
 function ProjectsAboutMe() {
   return (
-    <div className="relative bg-projectsAboutMe-background bg-cover bg-start px-10 lg:px-44 min-h-screen z-20">
+    <div className="relative bg-projectsAboutMe-background bg-cover bg-start px-4 lg:px-44 min-h-screen z-20">
       <Projects/>
       <AboutMe/>
 

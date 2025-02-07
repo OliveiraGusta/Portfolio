@@ -7,7 +7,7 @@ import SlideDepoiments from '../molecules/slideDepoiments'
 
 function Depoiments() {
   return (
-    <div id="depoiments" className="relative pr-10 pl-10">
+    <div id="depoiments" className="relative text-center ">
       <video
         autoPlay
         loop

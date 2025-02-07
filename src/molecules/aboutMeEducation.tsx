@@ -27,7 +27,7 @@ function AboutMeEducation() {
       style={{
         background: "radial-gradient(ellipse at left, rgba(6, 5, 21, 0.2) 70%, rgba(255, 255, 255, 1) 500%)"
       }}
-      className="flex flex-col  rounded-3xl shadow-lg p-10 px-30 lg:w-5/12 h-[50vh]"
+      className="flex flex-col  rounded-3xl shadow-lg p-10 px-30  lg:w-5/12 lg:h-[50vh]"
     >
       <h1 className="text-2xl font-bold self-center pb-2">CERTIFICAÇÕES</h1>
       <ul className="list-none">
@@ -39,7 +39,7 @@ function AboutMeEducation() {
             <img
               src={`/assets/logos/${item.urlImage}`}
               alt={`Logo ${item.institution}`}
-              className="w-12 h-12 object-contain"
+              className="hidden lg:flex w-12 h-12 object-contain"
             />
             <div>
               <p className="text-lg font-bold text-white">{item.institution}</p>

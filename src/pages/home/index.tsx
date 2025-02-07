@@ -8,13 +8,13 @@ import Footer from "../../organisms/footer.tsx";
 
 function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <VideoHome />
       <Services />
       <ProjectsAboutMe />
       <Depoiments />
       <Footer />
-    </>
+    </div>
   );
 }
 

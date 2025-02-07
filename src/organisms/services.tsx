@@ -15,10 +15,9 @@ function Services() {
         }} 
       />
     
-      <h1 className="font-bold text-3xl">COMO EU POSSO TE AJUDAR</h1>
-        <p className="font-thin text-center">
-        Sinta-se à vontade para entrar em contato se tiver alguma ideia interessante que gostaria<br/>
-        de discutir mais detalhadamente ou trabalhar comigo.
+      <h1 className="font-bold text-3xl text-center">COMO EU POSSO TE AJUDAR</h1>
+        <p className="font-thin text-center xl:w-1/3 ">
+        Sinta-se à vontade para entrar em contato se tiver alguma ideia interessante que gostaria de discutir mais detalhadamente ou trabalhar comigo.
         </p>
       <ServicesList/>
       <Shape 

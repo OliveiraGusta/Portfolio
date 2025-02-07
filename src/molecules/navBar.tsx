@@ -5,8 +5,8 @@ var classNav = "relative px-2 mb-2 hover:mb-0 hover:border-b-2 hover:border-whit
 function Navbar() {
   return (
     <>
-          <div className="flex justify-center text-lg lg:text-xl pt-20">
-            <div className='flex gap-4 lg:gap-16'>
+          <div className="flex justify-center text-sm lg:text-xl pt-20">
+            <div className='flex gap-1 lg:gap-16'>
               <div className={classNav}>
                 <a href="#home">Home</a></div>
               <div className={classNav}>
@@ -16,7 +16,7 @@ function Navbar() {
                 <a href="#projects">Projetos</a>
               </div>
               <div className={classNav}>
-                <a href="#about-me">Sobre mim</a>
+                <a href="#about-me">Sobre</a>
               </div>
               <div className={classNav}>
                 <a href="#depoiments">Depoimentos</a>

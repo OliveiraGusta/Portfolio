@@ -114,14 +114,14 @@ function ProjectList() {
   return (
     <div className="pb-20 z-50 flex flex-col">
 
-      <div className="flex flex-wrap flex-row gap-10 xl:justify-center xl:self-center lg:justify-center sm:justify-center">
+      <div className="flex flex-wrap flex-row gap-16 xl:gap-10 xl:justify-center xl:self-center lg:justify-center sm:justify-center">
         {projectsData.map((project, index) => (
           <div key={index} className="max-w-md">
 
             <img
               src={`/assets/images/${project.urlImage}`}
               alt={project.alt}
-              className="rounded-lg w-[100%] h-[250px]"
+              className="rounded-lg w-[100%] h-[50%] lg:h-[60%] "
             />
             <div className="mt-4 flex justify-between">
               <div>
@@ -148,7 +148,7 @@ function ProjectList() {
                 })}
               </div>
             </div>
-            <p className="text-white mt-1 w-5/6
+            <p className="text-white mt-1 w-7/8
             ">{project.description}</p>
 
             <div className="mt-6 flex gap-4">

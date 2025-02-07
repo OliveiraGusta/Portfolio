@@ -38,7 +38,7 @@ function LanguagesIcons() {
         <div className='flex md:gap-5 gap-2' >
             {languagesIcon.map((language) => (
                 <img
-                    className="md:h-[9vh] h-[7vh] "
+                    className="md:h-[9vh] h-[5vh] "
                     src={language.urlImage}
                     alt={language.alt}
                 />

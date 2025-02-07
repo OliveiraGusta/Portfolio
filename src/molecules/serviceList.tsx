@@ -48,8 +48,8 @@ function ServicesList() {
           background: "radial-gradient(ellipse at right bottom, rgba(6, 5, 21, 0.01) 70%, rgba(255, 255, 255, 0.9) 400%)"
         }} className="flex flex-col items-center py-16 rounded-3xl shadow-md hover:shadow-2xl hover:scale-105 transition duration-300">
           <div className={`mb-4 border-2 ${service.color} p-8 rounded-full `}>{service.icon}</div>
-          <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-          <p className="text-sm text-center px-16">{service.description}</p>
+          <h3 className="text-xl text-center font-semibold mb-2 px-3">{service.title}</h3>
+          <p className="text-sm text-center w-2/3">{service.description}</p>
         </div>
         </a>
       ))}

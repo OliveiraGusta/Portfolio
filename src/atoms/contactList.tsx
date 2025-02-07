@@ -3,24 +3,24 @@ import React from "react";
 const contactsListData = [
   {
     urlLink: "https://github.com/OliveiraGusta",
-    urlImage: "src/assets/icons/GithubIcon.svg",
+    urlImage: "/assets/icons/GithubIcon.svg",
     alt: "Logo Github",
   },
 
   {
     urlLink: "mailto:gustavo.oliver456@gmail.com",
-    urlImage: "src/assets/icons/mailicon.svg",
+    urlImage: "/assets/icons/MailIcon.svg",
     alt: "Logo Email",
   },
 
   {
     urlLink: "https://www.instagram.com/devliveira",
-    urlImage: "src/assets/icons/InstagramIcon.svg",
+    urlImage: "/assets/icons/InstagramIcon.svg",
     alt: "Logo Linkedin",
   },
   {
     urlLink: "https://www.linkedin.com/in/oliveiragusta/",
-    urlImage: "src/assets/icons/LinkedinIcon.svg",
+    urlImage: "/assets/icons/LinkedinIcon.svg",
     alt: "Logo Linkedin",
   },
 ];

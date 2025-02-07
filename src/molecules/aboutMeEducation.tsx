@@ -37,7 +37,7 @@ function AboutMeEducation() {
             className="text-white py-4 flex items-center gap-4 "
           >
             <img
-              src={`src/assets/logos/${item.urlImage}`}
+              src={`/assets/logos/${item.urlImage}`}
               alt={`Logo ${item.institution}`}
               className="w-12 h-12 object-contain"
             />

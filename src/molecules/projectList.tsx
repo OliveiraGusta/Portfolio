@@ -119,7 +119,7 @@ function ProjectList() {
           <div key={index} className="max-w-md">
 
             <img
-              src={`src/assets/images/${project.urlImage}`}
+              src={`/assets/images/${project.urlImage}`}
               alt={project.alt}
               className="rounded-lg w-[100%] h-[250px]"
             />
@@ -141,7 +141,7 @@ function ProjectList() {
                     <img
                       key={i}
                       className={`hover:scale-125 transition-transform duration-500 ${languageData.size}`}
-                      src={`src/assets/logos/${languageData.urlImage}`}
+                      src={`/assets/logos/${languageData.urlImage}`}
                       alt={languageData.alt}
                     />
                   ) : null;
@@ -157,7 +157,7 @@ function ProjectList() {
                   text="Ver Projeto"
                   padding="px-5 py-2"
                   link={project.linkProject}
-                  iconUrl="src/assets/icons/GlobeIcon.svg"
+                  iconUrl="/assets/icons/GlobeIcon.svg"
                   altIcon="Ícone de Globo"
                 />
               )}
@@ -167,7 +167,7 @@ function ProjectList() {
                   text="Ver Código"
                   padding="px-5 py-2"
                   link={project.linkCodeProject}
-                  iconUrl="src/assets/icons/GithubIcon.svg"
+                  iconUrl="/assets/icons/GithubIcon.svg"
                   altIcon="Ícone GitHub"
                 /> :
                 <Button
@@ -175,7 +175,7 @@ function ProjectList() {
                   padding="px-5 py-2 "
                   type="block"
                   link={project.linkCodeProject}
-                  iconUrl="src/assets/icons/LockIcon.svg"
+                  iconUrl="/assets/icons/LockIcon.svg"
                   altIcon="Ícone GitHub" />
               }
             </div>

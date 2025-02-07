@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import circle from '../assets/geometricShapes/circle.svg';
-import triangle from '../assets/geometricShapes/triangle.svg';
-import square from '../assets/geometricShapes/square.svg';
+import circle from '/assets/geometricShapes/circle.svg';
+import triangle from '/assets/geometricShapes/triangle.svg';
+import square from '/assets/geometricShapes/square.svg';
 
 interface ShapeProps {
   shape: 'circle' | 'triangle' | 'square';

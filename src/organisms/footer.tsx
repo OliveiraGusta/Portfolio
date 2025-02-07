@@ -11,7 +11,7 @@ function Footer() {
       <div className='flex items-center px-10'>
 
       <div className='basis-6/12 text-center items-center md:basis-2/12  flex flex-col '>
-        <img src="src\assets\images\Liveira.png"
+        <img src="/assets/images/Liveira.png"
           className="w-6/12 border-b-2 mb-2" alt="Desenho Liveira" />
           <p className='w-11/12'>Obrigado por visitar meu portfólio! Se precisar de algo entre em contato comigo</p>
           <ContactList />

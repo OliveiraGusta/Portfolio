@@ -1,7 +1,6 @@
 
 import React from 'react';
 
-import LanguagesIcons from '../molecules/languagesIcons';
 import Shape from '../atoms/shape';
 import ServicesList from '../molecules/serviceList';
 
@@ -11,7 +10,7 @@ function Services() {
       <div 
         className="absolute inset-0 bg-center bg-no-repeat opacity-10 z-[-20]"
         style={{ 
-          backgroundImage: "url('src/assets/images/point-grid.svg')",
+          backgroundImage: "url('/assets/images/point-grid.svg')",
           backgroundSize: "93%" 
         }} 
       />

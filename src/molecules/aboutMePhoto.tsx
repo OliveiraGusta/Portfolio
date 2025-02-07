@@ -11,15 +11,15 @@ function AboutMePhoto() {
         <h2 className="font-bold text-2xl">QUEM SOU EU</h2>
 
         <div className="w-1/2 relative p-[7px] rounded-full before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r before:from-purple-700 before:via-pink-500 before:to-blue-700 before:bg-[length:300%_300%] before:animate-gradientMove animate-float">
-          <img className="relative z-10 rounded-full" src="src/assets/images/me.png" />
+          <img className="relative z-10 rounded-full" src="/assets/images/me.png" />
         </div>
         <ContactList />
         <Button
           text="Currículo"
           type="download"
           padding="px-7 py-2"
-          link="src/assets/download/GustavoOliveira-DesenvolvedorFullStack.zip"
-          iconUrl="src/assets/icons/DownloadIcon.svg"
+          link="/assets/download/GustavoOliveira-DesenvolvedorFullStack.zip"
+          iconUrl="/assets/icons/DownloadIcon.svg"
           altIcon="Icone GitHub" />
       </div>
     </div>
